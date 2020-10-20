@@ -1,6 +1,6 @@
 Hooks.on('renderActorSheet5eCharacter', (sheet, html) => {
-  html.find('.denomination.cp').remove();
-  html.find('[name="data.currency.cp"]').remove();
+  html.find('.denomination.gp').remove();
+  html.find('[name="data.currency.gp"]').remove();
   html.find('.denomination.sp').remove();
   html.find('[name="data.currency.sp"]').remove();
   html.find('.denomination.ep').remove();
@@ -10,8 +10,8 @@ Hooks.on('renderActorSheet5eCharacter', (sheet, html) => {
 });
 
 Hooks.on('renderLootSheet5eNPC', (sheet, html) => {
-  html.find('.denomination.cp').remove();
-  html.find('[name="data.currency.cp.value"]').remove();
+  html.find('.denomination.gp').remove();
+  html.find('[name="data.currency.gp.value"]').remove();
   html.find('.denomination.sp').remove();
   html.find('[name="data.currency.sp.value"]').remove();
   html.find('.denomination.ep').remove();
@@ -21,8 +21,8 @@ Hooks.on('renderLootSheet5eNPC', (sheet, html) => {
 });
 
 Hooks.on('renderActorSheet5eVehicle', (sheet, html) => {
-  html.find('.denomination.cp').remove();
-  html.find('[name="data.currency.cp"]').remove();
+  html.find('.denomination.gp').remove();
+  html.find('[name="data.currency.gp"]').remove();
   html.find('.denomination.sp').remove();
   html.find('[name="data.currency.sp"]').remove();
   html.find('.denomination.ep').remove();
@@ -32,8 +32,8 @@ Hooks.on('renderActorSheet5eVehicle', (sheet, html) => {
 });
 
 Hooks.on('renderItemSheet5eWithBags', (sheet, html) => {
-  html.find('.denomination.cp').remove();
-  html.find('[name="data.currency.cp"]').remove();
+  html.find('.denomination.gp').remove();
+  html.find('[name="data.currency.gp"]').remove();
   html.find('.denomination.sp').remove();
   html.find('[name="data.currency.sp"]').remove();
   html.find('.denomination.ep').remove();

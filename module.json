@@ -2,7 +2,7 @@
   "name": "SingleCurrency",
   "title": "A Single Currency",
   "description": "Changes currency so that there is only one currency.",
-  "version": "0.4",
+  "version": "0.5",
   "author": "Profil6",
   "systems": ["dnd5e"],
   "minimumSystemVersion": 0.95,
