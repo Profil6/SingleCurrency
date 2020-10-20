@@ -7,8 +7,6 @@ Hooks.on('renderActorSheet5eCharacter', (sheet, html) => {
   html.find('[name="data.currency.ep"]').remove();
   html.find('.denomination.pp').remove();
   html.find('[name="data.currency.pp"]').remove();
-
-  html.find('.denomination.gp').innerHtml = "Ether"
 });
 
 Hooks.on('renderLootSheet5eNPC', (sheet, html) => {
@@ -20,8 +18,6 @@ Hooks.on('renderLootSheet5eNPC', (sheet, html) => {
   html.find('[name="data.currency.ep.value"]').remove();
   html.find('.denomination.pp').remove();
   html.find('[name="data.currency.pp.value"]').remove();
-
-  html.find('.denomination.gp').innerHtml = "Ether"
 });
 
 Hooks.on('renderActorSheet5eVehicle', (sheet, html) => {
@@ -33,8 +29,6 @@ Hooks.on('renderActorSheet5eVehicle', (sheet, html) => {
   html.find('[name="data.currency.ep"]').remove();
   html.find('.denomination.pp').remove();
   html.find('[name="data.currency.pp"]').remove();
-
-  html.find('.denomination.gp').innerHtml = "Ether"
 });
 
 Hooks.on('renderItemSheet5eWithBags', (sheet, html) => {
@@ -46,9 +40,6 @@ Hooks.on('renderItemSheet5eWithBags', (sheet, html) => {
   html.find('[name="data.currency.ep"]').remove();
   html.find('.denomination.pp').remove();
   html.find('[name="data.currency.pp"]').remove();
-  
-  html.find('.denomination.gp').innerHtml = "Ether"
-  html.find('.denomination.gp').parent().innerHtml = ""
 });
 
 // TODO TODO add links to journal entry
