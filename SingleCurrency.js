@@ -38,7 +38,6 @@ Hooks.on('renderActorSheet5eVehicle', (sheet, html) => {
 });
 
 Hooks.on('renderItemSheet5eWithBags', (sheet, html) => {
-  //html.find('')
   html.find('.denomination.cp').remove();
   html.find('[name="data.currency.cp"]').remove();
   html.find('.denomination.sp').remove();
@@ -51,6 +50,14 @@ Hooks.on('renderItemSheet5eWithBags', (sheet, html) => {
   html.find('.denomination.gp').innerHtml = "Ether"
   html.find('.denomination.gp').parent().innerHtml = ""
 });
+
+// TODO TODO add links to journal entry
+
+
+
+
+
+
 
 // Hooks.on('renderActorSheet5eVehicle', (sheet, html) => {
 //   html.find('.denomination.ep').remove();
