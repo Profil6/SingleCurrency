@@ -1,0 +1,19 @@
+{
+  "name": "SingleCurrency",
+  "title": "A Single Currency",
+  "description": "Changes currency so that there is only one currency.  Also removes Electrum from default 5e, TidyUI, and DnDBeyond Sheets",
+  "version": "",
+  "author": "",
+  "systems": ["dnd5e"],
+  "minimumSystemVersion": 0.95,
+  "scripts": [ "SingleCurrency.js" ],
+  "styles": ["SingleCurrency.css"],
+  "esmodules": [],
+  "packs": [],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "minimumCoreVersion": "0.6.6",
+  "compatibleCoreVersion": "0.6.6"
+
+}
